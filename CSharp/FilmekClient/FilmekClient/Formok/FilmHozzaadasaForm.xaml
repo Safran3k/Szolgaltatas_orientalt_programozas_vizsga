@@ -1,0 +1,34 @@
+﻿<Window x:Class="FilmekClient.Formok.FilmHozzaadasaFrom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Film hozzáadása" Height="358.4" Width="391.897" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <GroupBox x:Name="modositGb" Background="GhostWhite" HorizontalAlignment="Left" Height="252" Margin="10,10,0,0" VerticalAlignment="Top" Width="366">
+            <Grid>
+                <Label Content="Film hozzáadása" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.734,12.038" FontSize="25"/>
+                <TextBox x:Name="filmCimeModositTb" HorizontalAlignment="Left" Height="22" Margin="10,62,0,0" Text="Film címe" VerticalAlignment="Top" Width="338"/>
+                <TextBox x:Name="rendezoModositTb" HorizontalAlignment="Left" Height="22" Margin="10,98,0,0" Text="Rendező" VerticalAlignment="Top" Width="338"/>
+                <TextBox x:Name="mufajModositTb" HorizontalAlignment="Left" Height="22" Margin="10,135,0,0" Text="Műfaj" VerticalAlignment="Top" Width="338"/>
+                <DatePicker x:Name="premierDatumaModositDp" Margin="10,172,9.6,48.8"/>
+                <Button x:Name="modositBtn" Content="Változtatások mentése" HorizontalAlignment="Left" Margin="31,216,0,0" VerticalAlignment="Top" Width="304" Click="modositBtn_Click"/>
+
+            </Grid>
+        </GroupBox>
+        <Button x:Name="visszaAFooldalra" Content="Vissza a Főoldalra" HorizontalAlignment="Left" Margin="10,291,0,0" VerticalAlignment="Top" Width="362" Click="visszaAFooldalra_Click"/>
+
+        <GroupBox x:Name="hozzaadGb" Background="GhostWhite" HorizontalAlignment="Left" Height="276" Margin="10,10,0,0" VerticalAlignment="Top" Width="370">
+            <Grid>
+                <Label Content="Film hozzáadása" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.734,12.038" FontSize="25"/>
+                <TextBox x:Name="filmCimeTb" HorizontalAlignment="Left" Height="22" Margin="10,62,0,0" Text="Film címe" VerticalAlignment="Top" Width="338"/>
+                <TextBox x:Name="rendezoTb" HorizontalAlignment="Left" Height="22" Margin="10,98,0,0" Text="Rendező" VerticalAlignment="Top" Width="338"/>
+                <TextBox x:Name="mufajTb" HorizontalAlignment="Left" Height="22" Margin="10,135,0,0" Text="Műfaj" VerticalAlignment="Top" Width="338"/>
+                <Label x:Name="premierDatumaLb" Content="Premier dátuma" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top"/>
+                <DatePicker x:Name="premierDatumaDp" Margin="10,198,9.6,44.8"/>
+                <Button x:Name="hozzaadBtn" Content="Hozzáadás" HorizontalAlignment="Left" Margin="25,240,0,0" VerticalAlignment="Top" Width="304" Click="hozzaadBtn_Click"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

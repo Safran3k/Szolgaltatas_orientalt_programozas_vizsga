@@ -1,0 +1,22 @@
+﻿<Window x:Class="FilmekClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        Title="Bejelentkezés" Height="376.8" Width="268.619" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="loginLb" Content="Bejelentkezés" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="-19,10,-19.6,0" VerticalAlignment="Top" Height="64" Width="301" FontSize="35" FontWeight="Bold"/>
+
+        <Label x:Name="felhNevLb" Content="Felhasználónév" HorizontalAlignment="Left" Margin="27,97,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="felhNevTb" HorizontalAlignment="Left" Height="23" Margin="27,128,0,0" Text="" VerticalAlignment="Top" Width="202"/>
+
+        <Label x:Name="jelszoLb" Content="Jelszó" HorizontalAlignment="Left" Margin="27,156,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="jelszoTb" HorizontalAlignment="Left" Height="23" Margin="27,187,0,0" Password="" VerticalAlignment="Top" Width="202"/>
+
+        <Button x:Name="loginBtn" Content="Bejelentkezés" HorizontalAlignment="Left" Margin="27,215,0,0" VerticalAlignment="Top" Width="95" Height="23" Click="loginBtn_Click"/>
+        <Button x:Name="regisztracioBtn" Content="Fiók létrehozása" HorizontalAlignment="Left" Margin="134,215,0,0" VerticalAlignment="Top" Width="95" Height="23" Click="regisztracioBtn_Click"/>
+        <Label x:Name="tovabbLb" Content="Belépés regisztráció nélkül" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" MouseDoubleClick="tovabbLb_MouseDoubleClick"/>
+
+    </Grid>
+</Window>
