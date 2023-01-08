@@ -1,0 +1,2 @@
+# Szolgaltatas_orientalt_programozas_vizsga
+Vizsga bemutatasra szant projekt
